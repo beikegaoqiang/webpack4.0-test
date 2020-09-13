@@ -1,0 +1,10 @@
+body {
+  /* background: url("./dog.png"); */
+  width: 800px;
+  height: 800px;
+  border: 10px solid blueviolet;
+  transform: rotate(45deg);
+}
+/* style内联样式表默认顺序：1.html模板文件中自己定义的在最前面 2.@import导入的css模块文件在JS入口文件index.js中require引入的css模块文件的前面 */
+
+@import "./a.css";
